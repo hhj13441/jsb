@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>Markdown 记事本</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="topbar">
+  <button id="lightBtn">白色主题</button>
+  <button id="darkBtn">黑色主题</button>
+  <button id="logout">退出登录</button>
+</div>
+
+<div class="filebar">
+  <select id="fileList"></select>
+  <button id="newFile">新建文件</button>
+</div>
+
+<div class="editor-box">
+  <textarea id="editor" placeholder="Markdown 内容..."></textarea>
+  <div id="preview"></div>
+</div>
+
+<button id="saveBtn">保存</button>
+<p id="status"></p>
+
+<script src="markdown.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

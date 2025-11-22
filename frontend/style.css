@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: var(--bg);
+  color: var(--fg);
+  transition: 0.3s;
+}
+
+:root {
+  --bg: #ffffff;
+  --fg: #000000;
+  --box: #f3f3f3;
+}
+
+body.dark {
+  --bg: #1e1e1e;
+  --fg: #e0e0e0;
+  --box: #2e2e2e;
+}
+
+.topbar, .filebar {
+  padding: 10px;
+  background: var(--box);
+}
+
+.editor-box {
+  display: flex;
+  height: 70vh;
+}
+
+#editor {
+  flex: 1;
+  padding: 10px;
+  background: var(--box);
+  color: var(--fg);
+}
+
+#preview {
+  flex: 1;
+  padding: 10px;
+  overflow: auto;
+  background: var(--box);
+}
+
+.login-box {
+  width: 300px;
+  margin: 100px auto;
+}
