@@ -1,4 +1,4 @@
-📝 双主题 **Markdown 记事本**（支持登录 / 自动保存 / 多文件）
+# 📝 双主题 **Markdown 记事本**（支持登录 / 自动保存 / 多文件）
 
 一个适合新手部署的前后端分离小型项目。无需数据库，仅依赖 PHP + Apache 即可运行。
 
@@ -19,7 +19,7 @@
 
 ---
 
-🚀 如何在本地运行（超新手友好）
+## 🚀 如何在本地运行（超新手友好）
 
 1. 准备环境
 
@@ -61,7 +61,7 @@ http://localhost/notepad-app/frontend/login.html
 
 ---
 
-✨ 功能展示（你可在 GitHub 上传运行截图）
+## ✨ 功能展示（你可在 GitHub 上传运行截图）
 
 可在此插入你的实际运行截图：
 
@@ -88,7 +88,7 @@ http://localhost/notepad-app/frontend/login.html
 
 ---
 
-🔧 技术细节
+## 🔧 技术细节
 
 ✔ 前端
 
@@ -128,7 +128,7 @@ data/users.json
 
 ---
 
-📁 多文件记事本
+## 📁 多文件记事本
 
 所有用户笔记存放于：
 
@@ -148,7 +148,7 @@ data/notes/
 
 ---
 
-🔄 自动保存逻辑
+## 🔄 自动保存逻辑
 
 前端 app.js 内：
 
@@ -159,7 +159,7 @@ setInterval(save, 5000);
 
 ---
 
-📮 后端 API 说明
+## 📮 后端 API 说明
 
 POST /backend/login.php
 
@@ -188,7 +188,7 @@ GET /backend/logout.php
 
 ---
 
-🛠 常见问题
+## 🛠 常见问题
 
 1. 打开页面报 404？
 
